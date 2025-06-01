@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Tỏ tình style điện ảnh 💕</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="audio-control">
+  <button id="music-toggle">🎵 Bật nhạc</button>
+</div>
+
+<audio id="bg-music" loop>
+  <source src="audio/Moshi_Moshi_feat_百足_Sped_up.mp3" type="audio/mpeg">
+</audio>
+
+<canvas id="heart-canvas"></canvas>
+
+<div class="container">
+
+  <div class="effect-item img">
+    <img src="assets/pic1.jpg" alt="Ảnh 1">
+  </div>
+
+  <div class="effect-item text" style="color:#ff69b4;">
+    Từ lần đầu tiên gặp em, anh đã biết trái tim mình đổi thay...
+  </div>
+
+  <div class="effect-item img">
+    <img src="assets/pic2.jpg" alt="Ảnh 2">
+  </div>
+
+  <div class="effect-item text" style="color:#87CEEB;">
+    Mỗi nụ cười của em là ánh nắng xua tan cả thế giới u tối.
+  </div>
+
+  <div class="effect-item img">
+    <img src="assets/pic3.jpg" alt="Ảnh 3">
+  </div>
+
+  <div class="effect-item text" style="color:#FFD700;">
+    Anh muốn cùng em đi hết con đường dài phía trước.
+  </div>
+
+  <div class="effect-item text" style="color:#ADFF2F;">
+    Dù có khó khăn, chỉ cần có em, anh vẫn sẽ mỉm cười.
+  </div>
+
+  <div class="effect-item img">
+    <img src="assets/pic4.jpg" alt="Ảnh 4">
+  </div>
+
+  <div class="effect-item text" style="color:#FFB6C1;">
+    Cảm ơn em đã đến và ở lại – em là điều tuyệt vời nhất trong đời anh.
+  </div>
+
+  <div class="effect-item text" style="color:#FF6347;">
+    Yêu em mãi mãi ❤️
+  </div>
+
+  <button class="replay-btn">🔁 Replay</button>
+
+</div>
+
+<div class="question-box">
+  <p>Em có muốn ở bên anh mãi mãi không? 💌</p>
+  <div class="btn-group">
+    <button id="yes-btn">Có 💖</button>
+    <button id="no-btn">Không 🙅‍♀️</button>
+  </div>
+</div>
+
+<p id="answer-text" class="thanks-text"></p>
+
+
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+<script src="heart.js"></script>
+
+</body>
+</html>
